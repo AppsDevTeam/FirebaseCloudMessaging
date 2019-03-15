@@ -1,0 +1,29 @@
+{
+	"name": "adt/firebase-cloud-messaging",
+	"type": "library",
+	"description": "FirebaseCloudMessaging",
+	"keywords": ["nette", "extension", "FirebaseCloudMessaging"],
+	"homepage": "https://github.com/AppsDevTeam/FirebaseCloudMessaging",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Apps Dev Team",
+			"homepage": "http://appsdevteam.com",
+			"email": "hello@appsdevteam.com"
+		}
+	],
+	"support": {
+		"email": "hello@appsdevteam.com",
+		"issues": "https://github.com/AppsDevTeam/FirebaseCloudMessaging/issues"
+	},
+	"require": {
+		"nette/di": "^2.4",
+		"sngrl/php-firebase-cloud-messaging": "dev-master",
+		"guzzlehttp/guzzle": "^6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Adt\\FirebaseCloudMessaging\\": "src/"
+		}
+	}
+}
