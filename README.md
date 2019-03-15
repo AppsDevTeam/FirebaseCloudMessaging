@@ -3,7 +3,7 @@ Firebase Cloud Messaging Extension For Nette
 
 1. Install via composer
 ```
-composer require adt/firebase-cloud-messaging
+composer require sngrl/php-firebase-cloud-messaging:dev-master adt/firebase-cloud-messaging:dev-master
 ```
 
 2. Setup extension in neon config
