@@ -17,7 +17,7 @@
 		"issues": "https://github.com/AppsDevTeam/FirebaseCloudMessaging/issues"
 	},
 	"require": {
-		"nette/di": "^2.4",
+		"nette/di": "^2.4 || ^3.0",
 		"sngrl/php-firebase-cloud-messaging": "dev-master",
 		"guzzlehttp/guzzle": "^6.0"
 	},
