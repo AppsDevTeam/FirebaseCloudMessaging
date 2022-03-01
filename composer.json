@@ -19,7 +19,7 @@
 	"require": {
 		"nette/di": "^2.4 | ^3.0",
 		"sngrl/php-firebase-cloud-messaging": "^1.0",
-		"guzzlehttp/guzzle": "^6.0"
+		"guzzlehttp/guzzle": "^6.0|^7.0"
 	},
 	"autoload": {
 		"psr-4": {
